@@ -1,0 +1,9 @@
+<h3>This is Parent Component</h3>
+<p>Message Recieved from Child 2: {{ messageFromChild2 }}</p>
+<p>Message Recieved from Child 3: {{ messageFromChild3 }}</p>
+<app-child-one message="'Whazzup child'"></app-child-one>
+<app-child-two (messageEvent)="recievedMessage($event)"></app-child-two>
+<app-child-three></app-child-three>
+<app-child-four></app-child-four>
+<app-child-five></app-child-five>
+<app-child-six></app-child-six>
